@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(214, 185, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav h2{
+    font-size: 30px;
+    font-family:  Verdana;
+    color: white;
+
+}
+.sub_nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(221, 216, 216);
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}
+.sub_nav p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  rgb(196, 169, 15);
+    font-size: 18px;
+    border: 1px solid black;
+    width: 360px;
+    height: 40px;
+    background-color: white;
+}
+.sub_nav .pad{
+    padding: 10px 5px;
+}
+.content{
+    background-color: rgb(124, 122, 122);
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    flex: 1;
+    
+}
+.content > .blocos{
+    width: 30%;
+    background-color: white;
+    justify-content: center;
+    border: 1px solid black;
+    margin:30px 20px;
+}
+.blocos > img{
+    height: 350px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.blocos  p{
+    margin: 20px 40px;
+    text-align: justify;
+    font-family:  Verdana;
+    font-size: 15px;
+}
+.blocos .botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    height: 35px;
+    border: 1px solid black;
+    background-color: rgb(219, 213, 213);
+    font-family:  Verdana;
+    font-size: 15px;
+    margin-top:30%;
+}
+.rodape{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(214, 185, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape h2{
+    font-size: 20px;
+    color: white;
+}
